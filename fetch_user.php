@@ -1,4 +1,3 @@
-
 <?php
 
 //fetch_user.php

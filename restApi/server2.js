@@ -33,7 +33,9 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 
-
+app.route('/chat/:id')
+    .put(usersController.update)
+    .delete(usersController.delete);
 
 app.route('/chat')
     .post(usersController.create);
