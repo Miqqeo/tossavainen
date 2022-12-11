@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "mysql": "^2.17.1",
     "node-php-password": "^0.1.2",
     "password-hash": "^1.2.2"
